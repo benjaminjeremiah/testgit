@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>About Me</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+	 <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+    .bg-4 { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  /*.container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }*/
+  </style>
+</head>
+<body>
+<header>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="personal.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="gall.html">Gallery</a></li>
+        <li><a href="us.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+<br><br>
+<section>
+	<div class="well well-sm">
+	<div class="row">
+	<div class="col-md-6 col-sm-12">
+	<h4>Preview my work</h4>
+		<form class="form-inline">
+			<div class="form-group">
+				<input type="email" class="form-control" id="emailField" placeholder="Enter email">
+			</div>
+			<div class="form-group">
+				<input type="password" class="form-control" id="passwordField" placeholder="Password">
+			</div>
+			<div class="checkbox">
+				<label>
+					<input type="checkbox"> Remember me
+				</label>
+			</div>
+			<br><br>
+			<button type="submit" class="btn btn-primary">Sign in</button>
+	
+	<br><br>
+		<p> Enter your comments in the following box </p>
+		<br>
+		<textarea rows="5" cols="70" placeholder="Your feedback is important to us" class="col-md-4 col-sm-6 col-xs-12"></textarea>
+		<br><br><br>
+			<button type="submit" class="btn btn-primary">Submit</button>
+			
+		</form>
+	</div>
+	<div class="col-md-6 col-sm-12">
+		<form class="form-inline">
+			<h4>sign up for my newsletter</h4>
+				<div class="form-group">
+					<input type="text" name="form-control" id="Firstname" placeholder="First name">	Firstname
+					<br><br>
+					<input type="text" name="form-control" id="Surname" placeholder="Surname">	Surname
+					<br><br>
+					<input type="text" name="form-control" id="Othername" placeholder="Other name">	Othername
+					<br><br>
+					<select class="form-control" col-xs-4>
+  						<option>Male</option>
+  						<option>Female</option>
+					</select>	Gender
+					<br><br>
+					<input type="email" name="form-control" id="emailField" placeholder="Enter email">	Email address
+					<br><br>
+					<input type="password" name="form-control" id="passwordField" placeholder="Enter password">	Password
+					<br><br>
+					<input type="text" name="form-control" id="Username" placeholder="Username">	Username
+					<br><br>
+					<input type="password" name="form-control" id="passwordField" placeholder="Confirm password">	Confirm password
+					<button type="submit" class="btn btn-success">Sign up</button>
+				</div>
+			
+		</form>
+		
+	</div>
+	</div>
+</div>
+</section>
+<footer class="container-fluid bg-4 text-center" style="padding-top: 70px; padding-bottom: 70px; opacity:0.8;">
+<!-- <div class="jumbotron" style="background-color:rgba(23,12,45,0.1)">
+  <p>Footer Text</p>
+  </div>
+ -->
+   <p>Design by SoulEssence Nigeria</p>
+	
+		<div class="container">
+				<a class="btn btn-primary" href="https://www.facebook.com/" role="button"><img src="facebook.png"></a>
+				<a class="btn btn-primary" href="https://www.twitter.com/" role="button"><img src="twitter.png"></a>
+				<a class="btn btn-primary" href="https://www.youtube.com/" role="button"><img src="youtube.png"></a>
+				<a class="btn btn-primary" href="https://www.vkontakte.com/" role="button"><img src="vkontakte.png"></a>
+				<br><br>
+		</div>
+
+</footer>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
